@@ -1,63 +1,39 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    background-color: #f0f0f0;
 }
 
-.form-container {
-    background-color: #333;
-    color: #fff;
+.container {
+    background-color: white;
     padding: 20px;
-    border-radius: 8px;
-    width: 100%;
-    max-width: 400px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    margin-bottom: 20px;
-    text-align: center;
+form {
+    display: flex;
+    flex-direction: column;
 }
 
-label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-input, textarea, select {
-    width: 100%;
-    padding: 10px;
+input {
     margin-bottom: 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-}
-
-button {
-    width: 100%;
     padding: 10px;
-    background-color: #5cb85c;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
     font-size: 16px;
 }
 
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
 button:hover {
-    background-color: #4cae4c;
-}
-
-.payment-details {
-    display: none;
-}
-
-#qrCodeContainer img {
-    width: 100%;
-    max-width: 200px;
-    display: block;
-    margin: 10px auto;
+    background-color: #0056b3;
 }
